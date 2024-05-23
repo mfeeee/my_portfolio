@@ -71,9 +71,9 @@ section {
     min-height: fit-content;
 }
 
-/*.section-container {
+.section-container {
     display: flex;
-}*/
+}
 
 /* seção profile */
 
@@ -162,7 +162,30 @@ section {
 }
 
 .button-color2:hover {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(23, 23, 23);
     color: rgb(235, 235, 235);
     cursor: pointer;
+}
+
+/* seção sobre mim */
+
+#about {
+    gap: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.container_about_details {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_about, .container_details {
+    display: flex;
+}
+
+.arrow {
+    position: absolute;
+    right: -80px;
+    bottom: 40px;
 }
