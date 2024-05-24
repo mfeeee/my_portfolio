@@ -278,3 +278,44 @@ article .icon {
     margin: 16px;
     color: black;
 }
+
+/* seção contato */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.container_contact {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto;
+    padding: 8px;
+}
+
+.info {
+    font-size: larger;
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    gap: 8px;
+    align-items: center;
+}
+
+.email-icon {
+    height: 40px;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.contact_link {
+    font-size: 48px;
+}
