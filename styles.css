@@ -208,3 +208,51 @@ section {
     gap: 64px;
     height: 80%;
 }
+
+.container_about .icon {
+    cursor: default;
+}
+
+/* seção experiencia */
+
+#experience {
+    position: relative;
+}
+
+.experience-subtitle {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.container_experience_details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+.container_articles {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-around;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+#javascript {
+    margin-right: 15px;
+}
+
+article .icon {
+    cursor: default;
+}
