@@ -256,3 +256,25 @@ article {
 article .icon {
     cursor: default;
 }
+
+/* seção projetos */
+
+#projects {
+    position: relative;
+}
+
+.container_color {
+    background-color: whitesmoke;
+    border-color: rgb(163, 163, 163);
+}
+
+.project-img {
+    border-radius: 32px;
+    width: 65%;
+    height: 65%;
+}
+
+.project-title {
+    margin: 16px;
+    color: black;
+}
