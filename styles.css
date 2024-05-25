@@ -217,6 +217,9 @@ section {
 
 #experience {
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .experience-subtitle {
@@ -282,6 +285,7 @@ article .icon {
 /* seção contato */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -318,4 +322,15 @@ article .icon {
 
 .contact_link {
     font-size: 48px;
+}
+
+/* seção rodapé */
+
+footer {
+    height: 26vh;
+    margin: 0 16px;
+}
+
+footer p {
+    text-align: center;
 }
