@@ -148,6 +148,7 @@ section {
 .button-color1, .button-color2 {
     border: rgb(53, 53, 53) 1.6px solid;
     background-color: transparent;
+    z-index: 10;
 }
 
 .button-color2 {
@@ -156,7 +157,8 @@ section {
 }
 
 .button-color1:hover {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(119,144,189);
+    border: rgb(93, 116, 158) 1.6px solid;
     color: white;
     cursor: pointer;
 }
@@ -235,6 +237,7 @@ section {
     justify-content: center;
     flex-direction: column
 }
+
 .container_articles {
     display: flex;
     text-align: initial;
@@ -268,7 +271,7 @@ article .icon {
 }
 
 .container_color {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     border-color: rgb(163, 163, 163);
 }
 
@@ -281,6 +284,16 @@ article .icon {
 .project-title {
     margin: 16px;
     color: black;
+}
+
+.project-description {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.bx{
+    font-size: 50px;
+    padding-top: 10px;
 }
 
 /* seção contato */
