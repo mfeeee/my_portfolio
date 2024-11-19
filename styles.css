@@ -248,6 +248,7 @@ section {
 }
 
 article {
+    flex: 1 1 calc(25% - 40px);
     display: flex;
     align-items: center;
     width: 120px;
