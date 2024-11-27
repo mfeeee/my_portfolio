@@ -239,30 +239,27 @@ section {
 }
 
 .container_articles {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 40px;
-    justify-content: space-around;
+    display: grid; /* Trocar de flex para grid */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsivo */
+    gap: 32px; /* Espaço uniforme */
+    justify-items: center; /* Centraliza os itens */
+    align-items: center; /* Alinha verticalmente */
+    padding: 20px; /* Espaçamento interno */
 }
 
 article {
-    flex: 1 1 calc(25% - 40px);
     display: flex;
     align-items: center;
-    width: 120px;
-    justify-content: space-around;
-    gap: 8px;
-    margin-bottom: 32px;
-}
-
-#javascript {
-    margin-right: 15px;
+    text-align: center;
+    gap: 16px; /* Espaçamento entre ícone e texto */
+    width: 100%;
+    justify-content: center;
 }
 
 article .icon {
     cursor: default;
+    width: 40px;
+    height: 40px;
 }
 
 /* seção projetos */
