@@ -28,7 +28,7 @@ a,
 
 /* navegador desktop */
 
-nav, .links-nav {
+nav, .links_nav {
     display: flex;
 }
 
@@ -38,7 +38,7 @@ nav {
     height: 17vh;
 }
 
-.links-nav {
+.links_nav {
     gap: 32px;
     list-style: none;
     font-size: 24px;
@@ -197,7 +197,7 @@ section {
     bottom: 40px;
 }
 
-.container_details {
+.container_details, .container_details_info{
     padding: 20px;
     flex: 1;
     background: white;
