@@ -89,4 +89,7 @@
     container_text {
         text-align: justify;
     }
+    button {
+        text-decoration: none;
+    }
 }
