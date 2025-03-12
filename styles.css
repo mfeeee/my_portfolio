@@ -207,6 +207,12 @@ section {
     text-align: center;
 }
 
+.container_details_info{
+    display: flex;
+    flex: wrap;
+    gap: 20px;
+}
+
 .section-container {
     gap: 64px;
     height: 80%;
@@ -307,6 +313,7 @@ article .icon {
 .container_contact {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: 32px auto;
     padding: 8px;
 }
@@ -316,12 +323,12 @@ article .icon {
     display: flex;
 }
 
-.contact-info {
+.contact_info {
     display: flex;
     flex-direction: row;
     margin: 8px;
     gap: 8px;
-    align-items: center;
+   align-items: center;
 }
 
 .email-icon {
