@@ -1,1 +1,14 @@
-Desde sempre, a tecnologia foi minha paixão. Estou atualmente cursando Desenvolvimento de Software na Programe.IO para aperfeiçoar minhas habilidades, paralelo aos meus estudos no Instituto Federal do Piauí - Campus Parnaíba. Atualmente, desenvolvo soluções completas em um ambiente low-code, onde utilizo JavaScript e CSS para aprimorar interfaces, PHP para lógica de back-end e SQL para manipulação e gerenciamento de dados.
+#include <stdio.h>
+
+int main()
+{
+    char name[30];
+
+    printf("What's your name? ");
+    scanf("%s", name);
+
+    printf("hello, %s", name);
+    printf("\n");
+
+    return 0;
+}
