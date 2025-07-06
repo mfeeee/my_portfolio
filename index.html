@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Maria Fernanda </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Maria Fernanda</div>
+        <div>
+            <ul class="links_nav">
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pic-container_section">
+            <img src="./assets/profile-pic.png" alt="Foto de Perfil Maria Fernanda">
+        </div>
+        <div class="text_section">
+            <p class="text_1_section">Olá, eu sou</p>
+            <h1 class="title">Maria Fernanda</h1>
+            <p class="text_2_section">Desenvolvedora FullStack</p>
+            <div class="container_button">
+                <button class="button button-color1" onclick="window.open('assets/CV FullStack.pdf', '_blank')">Download CV</button>
+                <button class="button button-color2" onclick="location.href='./#contact'">Contato</button>
+            </div>
+            <div id="container_socials">
+                <img src="./assets/github.png" alt="Meu Perfil GitHub" class="icon" onclick="location.href='https://github.com/mfeeee'" onmouseover="this.src='./assets/github-hover2.png'" onmouseout="this.src='./assets/github.png'">
+                <img src="./assets/instagram.png" alt="Meu Perfil Instagram" class="icon" onclick="location.href='https://www.instagram.com/mfernandarcs/'" onmouseover="this.src='./assets/instagram-hover2.png'" onmouseout="this.src='./assets/instagram.png'">
+                <img src="./assets/linkedin.png" alt="Meu Perfil LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/mfernandacs'" onmouseover="this.src='./assets/linkedin-hover2.png'" onmouseout="this.src='./assets/linkedin.png'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="text_1_section">Conheça Mais</p>
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="pic-container_section">
+                <img src="./assets/IMG_4245.jpg" alt="Foto de Desenvolvedora" class="about_pic"/>
+            </div>
+            <div class="container_about_details">
+                <div class="container_about">
+                    <div class="container_details">
+                        <img src="./assets/education.png" alt="Icone Qualificacao" class="icon">
+                        <h3>Experiência Profissional</h3>
+                        <p>+6 meses<br>RGM Tecnologias - Estagiária de desenvolvimento</p>
+                    </div>
+                    <div class="container_details">
+                        <img src="./assets/education.png" alt="Icone Qualificacao" class="icon">
+                        <h3>Estudos</h3>
+                        <p>Análise e Desenvolvimento de Sistemas - IFPI <br>Desenvolvimento de Software Fullstack- Programe.IO</p>
+                    </div>   
+                </div>
+                <div class="container_text">
+                    <p>
+                        Desde sempre, a tecnologia foi minha paixão. Estou atualmente cursando Desenvolvimento de Software na Programe.IO para aperfeiçoar minhas habilidades, paralelo aos meus estudos no Instituto Federal do Piauí - Campus Parnaíba. Atualmente, desenvolvo soluções completas em um ambiente low-code, onde utilizo JavaScript e CSS para aprimorar interfaces, PHP para lógica de back-end e SQL para manipulação e gerenciamento de dados, experiência que adquiro no meu estágio na ZPE Tech Hub.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/arrow1.png" alt="Icone de Flecha" class="icon arrow"
+            onclick="location.href='./#experience'" onmouseover="this.src='./assets/icones azuis/arrow1.svg'" onmouseout="this.src='./assets/arrow1.png'">
+        </div>
+    </section>
+    <section id="experience">
+        <p class="text_1_section">Explore Minha</p>
+        <h1 class="title">Experiência</h1>
+        <div class="container_experience_details">
+            <div class="container_about">
+                <div class="container_details">
+                    <h2 class="experience-subtitle">Desenvolvimento Frontend</h2>
+                    <div class="container_articles">
+                        <article>
+                            <img src="./assets/html.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/css.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/bootstrap.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/tailwind.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/javascript.png" alt="Icone Experiencia" class="icon" id="javascript">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/typescript.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="container_details">
+                    <h2 class="experience-subtitle">Desenvolvimento Backend</h2>
+                    <div class="container_articles">
+                        <!-- Novas experiências -->
+                        <article>
+                            <img src="./assets/git.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/python.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/php.svg" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/deno.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Deno</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/mongodb.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Mongo.db</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/nodejs.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/expressjs.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Express.js</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/postman.png" alt="Icone Experiencia" class="icon">
+                            <div>
+                                <h3>Postman</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/arrow1.png" alt="Icone de Flecha" class="icon arrow"
+            onclick="location.href='./#projects'" onmouseover="this.src='./assets/icones azuis/arrow1.svg'" onmouseout="this.src='./assets/arrow1.png'">
+        </div>
+    </section>
+    <section id="projects">
+        <p class="text_1_section">Navegue Pelos Meus</p>
+        <h1 class="title">Projetos</h1>
+        <div class="container_experience_details">
+            <div class="container_about">
+                <div class="container_details container_color">
+                    <div class="container_articles">
+                        <i class='bx bx-calculator'></i>
+                    </div>
+                    <h2 class="experience-subtitle project-title">Calculadora</h2>
+                    <p class="project-description">Aplicação simples para realizar operações matemáticas básicas com design responsivo.</p>
+        
+                    <div class="container_button">
+                        <button class="project-button button" onclick="location.href='https://github.com/mfeeee/mf_calculadora'">Github</button>
+                        <button class="project-button button" onclick="location.href='https://mfeeee.github.io/mf_calculadora/'">Live Demo</button>
+                    </div>
+                </div>
+                
+                <div class="container_details container_color">
+                    <div class="container_articles">
+                        <i class='bx bx-desktop'></i>
+                    </div>
+                    <h2 class="experience-subtitle project-title">Blog Django</h2>
+                    <p class="project-description">Blog desenvolvido com Python e Django, permitindo a criação, edição e visualização de postagens de maneira dinâmica.</p>
+                    <div class="container_button">
+                        <button class="project-button button" onclick="location.href='https://github.com/mfeeee/my_django_blog'">Github</button>
+                        <button class="project-button button" onclick="location.href='https://mfeeee.pythonanywhere.com'">Live Demo</button>
+                    </div>
+                </div>
+                
+                <div class="container_details container_color">
+                    <div class="container_articles">
+                        <i class='bx bx-food-menu'></i>
+                    </div>
+                    <h2 class="experience-subtitle project-title">Big Bite</h2>
+                    <p class="project-description">Site de venda de hambúrgueres online, oferecendo uma experiência de compra simples e rápida.</p>
+                    <div class="container_button">
+                        <button class="project-button button" onclick="location.href='https://github.com/mfeeee/big_bite'">Github</button>
+                        <button class="project-button button" onclick="location.href='https://mfeeee.github.io/big_bite/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container_about">
+                <div class="container_details container_color">
+                    <div class="container_articles">
+                        <i class='bx bxl-nodejs'></i>
+                    </div>
+                    <h2 class="experience-subtitle project-title">API Rest CRUD</h2>
+                    <p class="project-description">API simples para gerenciar produtos, construída com Node.js e Express.</p>
+                    <div class="container_button">
+                        <button class="project-button button" onclick="location.href='https://github.com/mfeeee/api-produtos'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/arrow1.png" alt="Icone de Flecha" class="icon arrow"
+            onclick="location.href='./#contact'" onmouseover="this.src='./assets/icones azuis/arrow1.svg'" onmouseout="this.src='./assets/arrow1.png'">
+        </div>
+    </section>
+    <section id="contact">
+        <p class="text_1_section">Fale Comigo</p>
+        <h1 class="title">Contato</h1>
+        <div class="container_contact">
+            <div class="container_info">
+                <div class="container_details_info">
+                    <div class="contact_info">
+                        <img src="./assets/email.png" alt="Icone Email" class="icon contact-icon email-icon">
+                        <p><a href="mailto:mfernandarocosta@gmail.com" class="contact-link" id="email">mfernandarocosta@gmail.com</a></p>
+                    </div>
+                    <div class="contact_info">
+                        <img src="./assets/whatsapp.png" alt="Icone Whatsapp" class="icon contact-icon">
+                        <p><a href="https://wa.link/ykcpo2" class="contact-link">WhatsApp</a></p>
+                    </div>
+                    <div class="contact_info">
+                        <img src="./assets/linkedin.png" alt="Icone Linkedin" class="icon contact-icon">
+                        <p><a href="https://www.linkedin.com/in/mfernandacs" class="contact-link">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/arrow-up1.png" alt="Icone de Flecha Para Cima" class="icon arrow"
+                onclick="location.href='./#desktop-nav'" onmouseover="this.src='./assets/arrow-up-hover1.png'" onmouseout="this.src='./assets/arrow-up1.png'">
+            </div>
+        </div>
+    </section>            
+    <footer>
+        <nav>
+            <div class="nav-links_container">
+                <ul class="links_nav">
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 2025 Maria Fernanda. Todos os Direitos Reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
