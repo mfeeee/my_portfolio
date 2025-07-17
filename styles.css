@@ -27,6 +27,7 @@
     --outline: #E3F2FD;
     --black: #E3F2FD;
     --white: #0F172A;
+    --profile_pic: "./assets/dark-profile-pic.png";
 }
 
 /* geral */
@@ -68,6 +69,7 @@ a,
 
 nav, .links_nav {
     display: flex;
+    align-items: center;
 }
 
 nav {
@@ -354,6 +356,16 @@ article .icon {
 .bx{
     font-size: 50px;
     padding-top: 10px;
+}
+
+#dark-mode-icon {
+    color: var(--black);
+    font-size: 32px;
+    padding: 0;
+}
+
+#dark-mode-icon:hover {
+    color: var(--text-hover);
 }
 
 /* seção contato */
