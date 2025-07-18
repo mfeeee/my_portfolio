@@ -24,8 +24,8 @@ function changeThemeImages(isDarkMode) {
         'instagram.png': isDarkMode ? 'assets/dark/instagram.png' : 'assets/light/instagram.png',
         'linkedin.png': isDarkMode ? 'assets/dark/linkedin.png' : 'assets/light/linkedin.png',
         
-        'arrow1.png': isDarkMode ? 'assets/dark-theme/arrow1.png' : 'assets/arrow1.png',
-        'arrow-up1.png': isDarkMode ? 'assets/dark-theme/arrow-up1.png' : 'assets/arrow-up1.png'
+        'arrow.png': isDarkMode ? 'assets/dark/arrow.png' : 'assets/light/arrow.png',
+        'arrow-up.png': isDarkMode ? 'assets/dark/arrow-up.png' : 'assets/light/arrow-up.png'
     };
     
 
@@ -68,16 +68,16 @@ function updateHoverEffects(img, isDarkMode) {
     }
     
     if (img.alt && img.alt.includes('Flecha') && !img.alt.includes('Cima')) {
-        const normalSrc = isDarkMode ? 'assets/dark/arrow1.png' : 'assets/light/arrow1.png';
-        const hoverSrc = 'assets/blue/arrow1.png';
+        const normalSrc = isDarkMode ? 'assets/dark/arrow.png' : 'assets/light/arrow.png';
+        const hoverSrc = 'assets/blue/arrow.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
     }
     
     if (img.alt && img.alt.includes('Flecha Para Cima')) {
-        const normalSrc = isDarkMode ? 'assets/dark/arrow-up1.png' : 'assets/light/arrow-up1.png';
-        const hoverSrc = 'assets/blue/arrow-up1.png';
+        const normalSrc = isDarkMode ? 'assets/dark/arrow-up.png' : 'assets/light/arrow-up.png';
+        const hoverSrc = 'assets/blue/arrow-up.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };

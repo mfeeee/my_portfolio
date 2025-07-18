@@ -368,6 +368,11 @@ article .icon {
     color: var(--text-hover);
 }
 
+#dark-mode-icon-no-hover {
+    color: var(--black);
+    padding: 0;
+}
+
 /* seção contato */
 
 #contact {
