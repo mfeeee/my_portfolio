@@ -76,17 +76,15 @@ function changeThemeImages(isDarkMode) {
     
     // Get all images on the page
     const images = document.querySelectorAll('img');
-    
-    // Loop through all images and update their src and hover effects
+    // Loop through all images and update their src and hover effects, except those with 'no-theme-switch'
     images.forEach(img => {
+        if (img.classList.contains('no-theme-switch')) return;
         const currentSrc = img.src;
         const filename = currentSrc.split('/').pop(); // Get just the filename
-        
         // Check if this image has a theme variant
         if (imageMap.hasOwnProperty(filename)) {
             img.src = imageMap[filename];
         }
-        
         // Update hover effects based on theme
         updateHoverEffects(img, isDarkMode);
     });
