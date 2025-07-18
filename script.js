@@ -32,9 +32,9 @@ function changeThemeImages(isDarkMode) {
         'profile-pic.png': isDarkMode ? 'assets/dark/profile-pic.png' : 'assets/profile-pic.png',
         
         // Social media icons
-        'github.png': isDarkMode ? 'assets/dark-theme/github.png' : 'assets/github.png',
-        'instagram.png': isDarkMode ? 'assets/dark-theme/instagram.png' : 'assets/instagram.png',
-        'linkedin.png': isDarkMode ? 'assets/dark-theme/linkedin.png' : 'assets/linkedin.png',
+        'github.png': isDarkMode ? 'assets/dark/github.png' : 'assets/light/github.png',
+        'instagram.png': isDarkMode ? 'assets/dark/instagram.png' : 'assets/light/instagram.png',
+        'linkedin.png': isDarkMode ? 'assets/dark/linkedin.png' : 'assets/light/linkedin.png',
         
         /*// Experience/Skills icons
         'html.png': isDarkMode ? 'assets/dark-theme/html.png' : 'assets/html.png',
@@ -96,24 +96,24 @@ function changeThemeImages(isDarkMode) {
 function updateHoverEffects(img, isDarkMode) {
     // Social media icons with hover effects
     if (img.alt && img.alt.includes('GitHub')) {
-        const normalSrc = isDarkMode ? 'assets/dark-theme/github.png' : 'assets/github.png';
-        const hoverSrc = isDarkMode ? 'assets/dark-theme/github.png' : 'assets/github-hover2.png';
+        const normalSrc = isDarkMode ? 'assets/dark/github.png' : 'assets/light/github.png';
+        const hoverSrc = 'assets/blue/github.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
     }
     
     if (img.alt && img.alt.includes('Instagram')) {
-        const normalSrc = isDarkMode ? 'assets/dark-theme/instagram.png' : 'assets/instagram.png';
-        const hoverSrc = isDarkMode ? 'assets/dark-theme/instagram.png' : 'assets/instagram-hover2.png';
+        const normalSrc = isDarkMode ? 'assets/dark/instagram.png' : 'assets/light/instagram.png';
+        const hoverSrc = 'assets/blue/instagram.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
     }
     
     if (img.alt && img.alt.includes('LinkedIn')) {
-        const normalSrc = isDarkMode ? 'assets/dark-theme/linkedin.png' : 'assets/linkedin.png';
-        const hoverSrc = isDarkMode ? 'assets/dark-theme/linkedin.png' : 'assets/linkedin-hover2.png';
+        const normalSrc = isDarkMode ? 'assets/dark/linkedin.png' : 'assets/light/linkedin.png';
+        const hoverSrc = 'assets/blue/linkedin.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
@@ -121,16 +121,16 @@ function updateHoverEffects(img, isDarkMode) {
     
     // Arrow icons with hover effects
     if (img.alt && img.alt.includes('Flecha') && !img.alt.includes('Cima')) {
-        const normalSrc = isDarkMode ? 'assets/dark-theme/arrow1.png' : 'assets/arrow1.png';
-        const hoverSrc = isDarkMode ? 'assets/icones brancos/arrow1.svg' : 'assets/icones azuis/arrow1.svg';
+        const normalSrc = isDarkMode ? 'assets/dark/arrow1.png' : 'assets/light/arrow1.png';
+        const hoverSrc = 'assets/blue/arrow1.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
     }
     
     if (img.alt && img.alt.includes('Flecha Para Cima')) {
-        const normalSrc = isDarkMode ? 'assets/dark-theme/arrow-up1.png' : 'assets/arrow-up1.png';
-        const hoverSrc = isDarkMode ? 'assets/dark-theme/arrow-up1.png' : 'assets/arrow-up-hover1.png';
+        const normalSrc = isDarkMode ? 'assets/dark/arrow-up1.png' : 'assets/light/arrow-up1.png';
+        const hoverSrc = 'assets/blue/arrow-up1.png';
         
         img.onmouseover = function() { this.src = hoverSrc; };
         img.onmouseout = function() { this.src = normalSrc; };
