@@ -29,14 +29,14 @@ function changeThemeImages(isDarkMode) {
     // Define image mappings for theme switching
     const imageMap = {
         // Profile and about images
-        'profile-pic.png': isDarkMode ? 'assets/dark-theme/profile-pic.png' : 'assets/profile-pic.png',
+        'profile-pic.png': isDarkMode ? 'assets/dark/profile-pic.png' : 'assets/profile-pic.png',
         
         // Social media icons
         'github.png': isDarkMode ? 'assets/dark-theme/github.png' : 'assets/github.png',
         'instagram.png': isDarkMode ? 'assets/dark-theme/instagram.png' : 'assets/instagram.png',
         'linkedin.png': isDarkMode ? 'assets/dark-theme/linkedin.png' : 'assets/linkedin.png',
         
-        // Experience/Skills icons
+        /*// Experience/Skills icons
         'html.png': isDarkMode ? 'assets/dark-theme/html.png' : 'assets/html.png',
         'css.png': isDarkMode ? 'assets/dark-theme/css.svg' : 'assets/css.png',
         'javascript.png': isDarkMode ? 'assets/dark-theme/javascript.png' : 'assets/javascript.png',
@@ -55,7 +55,7 @@ function changeThemeImages(isDarkMode) {
         'education.png': isDarkMode ? 'assets/dark-theme/education.png' : 'assets/icones-azuis/education.svg',
         'email.png': isDarkMode ? 'assets/dark-theme/email.png' : 'assets/email.png',
         'whatsapp.png': isDarkMode ? 'assets/blue/whatsapp.png' : 'assets/blue/whatsapp.png',
-        'checkmark.png': isDarkMode ? 'assets/dark-theme/checkmark.png' : 'assets/checkmark.png',
+        'checkmark.png': isDarkMode ? 'assets/dark-theme/checkmark.png' : 'assets/checkmark.png',*/
         
         // Arrow images
         'arrow1.png': isDarkMode ? 'assets/dark-theme/arrow1.png' : 'assets/arrow1.png',
