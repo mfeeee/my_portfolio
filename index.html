@@ -9,6 +9,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="script.js"></script>
 </head>
+
+<div id="video-modal">
+  <div class="video-container">
+    <video id="video-player" controls></video>
+    <button id="close-modal">x</button>
+  </div>
+</div>
+
 <body>
     <nav id="desktop-nav">
         <div class="logo">Maria Fernanda</div>
@@ -269,6 +277,18 @@
                     <p class="project-description">API simples para gerenciar produtos, construída com Node.js e Express.</p>
                     <div class="container_button">
                         <button class="project-button button" onclick="location.href='https://github.com/mfeeee/api-produtos'">Github</button>
+                    </div>
+                </div>
+
+                <div class="container_details container_color">
+                    <div class="container_articles">
+                        <i class="bx bx-mobile-alt" id="dark-mode-icon-no-hover"></i>
+                    </div>
+                    <h2 class="experience-subtitle project-title">PHP Quiz</h2>
+                    <p class="project-description">Aplicativo de quiz sobre PHP construído com Flutter e Dart</p>
+                    <div class="container_button">
+                        <button class="project-button button" onclick="location.href='https://github.com/mfeeee/projeto_perguntas'">Github</button>
+                        <button class="project-button button" id="open_video" data-video-src="assets\PHP_Quiz.mp4">Video Demo</button>
                     </div>
                 </div>
             </div>

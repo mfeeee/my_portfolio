@@ -56,6 +56,39 @@ p, h3{
     color: var(--text);
 }
 
+/* video */
+#video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; 
+  display: none;
+}
+
+.video-container {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  height: 90%;
+  max-height: 90vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-player {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
 
 
 /* transições */
@@ -99,9 +132,15 @@ a:hover {
 
 .logo {
     color: var(--text);
-    font-size: 32px;
+    font-size: 2rem;
     cursor:default;
 }
+
+/* hamburguer nav */
+#hamburger-nav {
+    
+}
+
 
 /* seções */
 
@@ -207,6 +246,18 @@ section {
     border: var(--button_hover) 1.6px solid;
     color: var(--white);
     cursor: pointer;
+}
+
+#close-modal {
+  position: absolute;
+  top: -30px; 
+  right: -30px;
+  font-size: 2rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
 }
 
 

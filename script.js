@@ -100,3 +100,28 @@ function loadTheme() {
 }
 
 document.addEventListener('DOMContentLoaded', loadTheme);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const videoModal = document.getElementById('video-modal');
+  const videoPlayer = document.getElementById('video-player');
+  const abrirVideoBtn = document.getElementById('open_video');
+  const fecharModalBtn = document.getElementById('close-modal');
+
+  // Apenas adiciona os event listeners se os elementos existirem
+  if (abrirVideoBtn && videoModal && fecharModalBtn) {
+    abrirVideoBtn.addEventListener('click', function() {
+      const videoSource = this.getAttribute('data-video-src');
+      if (videoPlayer) {
+        videoPlayer.src = videoSource;
+        videoModal.style.display = 'flex';
+      }
+    });
+
+    fecharModalBtn.addEventListener('click', function() {
+      videoModal.style.display = 'none';
+      if (videoPlayer) {
+        videoPlayer.pause();
+      }
+    });
+  }
+});
